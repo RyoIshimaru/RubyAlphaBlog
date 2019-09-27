@@ -2,9 +2,7 @@
 <html>
 <head>
   <title>RyoBlog</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
@@ -15,5 +13,6 @@
     <%= yield %>
   </div>
   <%= render "layouts/footer"%>
+  <%= debug(params) if Rails.env.development? %>
 </body>
 </html>
