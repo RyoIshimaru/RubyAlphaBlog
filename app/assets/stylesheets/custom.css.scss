@@ -1,4 +1,6 @@
-@import bootstrap;
+@import "bootstrap-sprockets";
+@import "bootstrap/scss/bootstrap";
+
 
 .navbar-custom {
   background-color: #21107E;
@@ -31,8 +33,6 @@
   letter-spacing: -1px;
   font-weight: bold;
 }
-@import "bootstrap";
-
 
 .btn-xlarge {
   font-size: 1.7em;
