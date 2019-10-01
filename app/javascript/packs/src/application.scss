@@ -1,16 +1,30 @@
+
+
 @import '~bootstrap/scss/bootstrap';
 
 .navbar-custom {
-    background-color: #21107E;
+  background-color: #21107E;
   }
   
 #logo {
-float: left;
-font-size: 2.0em;
-color: #fff;
-text-transform: uppercase;
-letter-spacing: -1px;
-font-weight: bold
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarDropdown {
+  margin-left: 10;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10;
 }
 
 .center {
